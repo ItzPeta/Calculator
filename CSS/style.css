@@ -8,7 +8,7 @@
 .hero {
     width: 100%;
     height: 100vh;
-    background: #b6dfff;
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,11 +125,18 @@ form input.operator {
 /* media queries starts here */
 @media screen and (max-width:
 500px) {
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    overflow: none;
+}
 
     .hero {
         width: 100%;
         height: 100%;
-        background: #b6dfff;
+        background: #fff;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
